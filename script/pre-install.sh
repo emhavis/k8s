@@ -30,6 +30,6 @@ sudo apt install net-tools
 # 
 # rename hostname, you might need to input password
 sudo hostnamectl set-hostname $1
-hostname -F /etc/hostname
+sudo hostname -F /etc/hostname
 #
 #
